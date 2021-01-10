@@ -1,7 +1,7 @@
 server {
   listen 80 default_server;
   server_name _;
-  root /home/ubuntu/new_chatapp/fundoo;
+  root /home/ubuntu/new_chatapp-master/fundoo;
 
   location / {
       include proxy_params;
@@ -9,6 +9,6 @@ server {
   }
   location /static/ {
    autoindex on;
-   alias /home/ubuntu/new_chatapp/fundoo/fundooapp/static/;
+   alias /home/ubuntu/new_chatapp-master/fundoo/fundooapp/static/;
   }
 }
