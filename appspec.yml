@@ -5,7 +5,7 @@ files:
     destination: /home/ubuntu/new_chatapp
   - source: /gunicorn.service
     destination: /etc/systemd/system/
-  - source: /fundoo.conf
+  - source: /fundo
     destination: /etc/nginx/sites-available/
 hooks:
   BeforeInstall:
