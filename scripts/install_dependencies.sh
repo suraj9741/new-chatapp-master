@@ -11,5 +11,3 @@ cd /home/ubuntu/new_chatapp-master
 pip3 install -r /home/ubuntu/new_chatapp-master/requirements.txt
 pip3 install django bcrypt django-extensions
 pip3 install gunicorn
-/home/ubuntu/env/bin/python -m pip install --upgrade pip
-pip3 install -r /home/ubuntu/new_chatapp-master/requirements.txt
